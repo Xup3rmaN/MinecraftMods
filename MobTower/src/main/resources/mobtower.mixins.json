@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.bigbro.mobtower.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"BuiltInRegistriesMixin",
+		"DefaultAttributesMixin",
+		"PlayerListMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

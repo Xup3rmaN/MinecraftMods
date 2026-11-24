@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "com.bigbro.oldmechanics.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"CameraMixin",
+		"LocalPlayerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

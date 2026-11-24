@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "chickenbomber",
+	"version": "${version}",
+	"name": "Chicken Bomber",
+	"description": "Курица на самолёте: увидев игрока, пикирует на него и сбрасывает яйца-бомбы.",
+	"authors": ["BigBro"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"chickenbomber.mixins.json",
+		{ "config": "chickenbomber.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

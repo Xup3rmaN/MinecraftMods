@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "signals",
+	"version": "${version}",
+	"name": "Signals",
+	"description": "Три командных сигнала: звук и сообщение у всех игроков с модом. Клавиши назначаются в Настройки → Управление.",
+	"authors": ["BigBro"],
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": ["dev.signals.Signals"],
+		"client": ["dev.signals.client.SignalsClient"]
+	},
+	"mixins": [
+		{
+			"config": "signals.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

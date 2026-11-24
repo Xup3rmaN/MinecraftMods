@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "mobtower",
+	"version": "${version}",
+	"name": "Wither Storm & Herobrine",
+	"description": "При входе в мир появляется Визершторм, на котором стоит Херобрин и раскидывает земные шары.",
+	"authors": ["BigBro"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"mobtower.mixins.json",
+		{ "config": "mobtower.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

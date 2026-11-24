@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "freddybonnie",
+	"version": "${version}",
+	"name": "Freddy & Bonnie",
+	"description": "Свиньи несут яйца Фредди и Бонни. Бонни сидит у Фредди на плечах и лупит его балалайкой, а Фредди держит Эндер Дракона на поводке и кидает в него снежки.",
+	"authors": ["BigBro"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"freddybonnie.mixins.json",
+		{ "config": "freddybonnie.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

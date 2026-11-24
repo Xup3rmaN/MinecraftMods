@@ -1,0 +1,16 @@
+{
+	"key.category.signals.signals": "Signals",
+	"key.signals.signal_1": "Signal 1",
+	"key.signals.signal_2": "Signal 2",
+	"key.signals.signal_3": "Signal 3",
+	"key.signals.mute_others": "Signals only (toggle other sounds)",
+	"signals.mute_on": "Game sounds off — only signals are audible",
+	"signals.mute_off": "Game sounds on",
+	"signals.no_team": "[Signals] The server doesn't have the mod. Add teammates: /signals add <name>",
+	"signals.added": "[Signals] Added %s to the team",
+	"signals.removed": "[Signals] Removed %s from the team",
+	"signals.not_in_team": "[Signals] %s is not in the team",
+	"signals.team": "[Signals] Team: %s",
+	"signals.team_empty": "[Signals] The team is empty. Add: /signals add <name>",
+	"signals.command_set": "[Signals] Private message command: /%s"
+}

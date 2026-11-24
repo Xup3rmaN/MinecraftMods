@@ -1,0 +1,15 @@
+{
+	"key.category.holoplane.main": "Holo Plane (голограмма)",
+	"key.holoplane.menu": "Открыть меню",
+	"key.holoplane.toggle": "Показать / скрыть",
+	"key.holoplane.spawn": "Перенести к себе",
+	"key.holoplane.blend": "Переливание hue вкл/выкл",
+	"key.holoplane.up": "Поднять (Page Up)",
+	"key.holoplane.down": "Опустить (Page Down)",
+	"key.holoplane.forward": "Сдвинуть вперёд",
+	"key.holoplane.back": "Сдвинуть назад",
+	"key.holoplane.left": "Сдвинуть влево",
+	"key.holoplane.right": "Сдвинуть вправо",
+	"key.holoplane.grow": "Расширить",
+	"key.holoplane.shrink": "Сузить"
+}

@@ -1,0 +1,15 @@
+{
+	"key.category.holoplane.main": "Holo Plane",
+	"key.holoplane.menu": "Open menu",
+	"key.holoplane.toggle": "Show / hide",
+	"key.holoplane.spawn": "Move to player",
+	"key.holoplane.blend": "Toggle hue cycling",
+	"key.holoplane.up": "Raise",
+	"key.holoplane.down": "Lower",
+	"key.holoplane.forward": "Move forward",
+	"key.holoplane.back": "Move back",
+	"key.holoplane.left": "Move left",
+	"key.holoplane.right": "Move right",
+	"key.holoplane.grow": "Expand",
+	"key.holoplane.shrink": "Shrink"
+}

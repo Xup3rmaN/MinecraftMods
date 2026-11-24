@@ -1,0 +1,13 @@
+{
+	"required": true,
+	"package": "com.bigbro.freddybonnie.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"AnimalMixin",
+		"BuiltInRegistriesMixin",
+		"DefaultAttributesMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

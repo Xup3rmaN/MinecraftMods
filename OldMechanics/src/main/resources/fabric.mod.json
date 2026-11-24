@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "oldmechanics",
+	"version": "${version}",
+	"name": "Old Mechanics",
+	"description": "Brings back pre-1.14 sneaking, camera and movement: 1.8-block sneak hitbox, 1.54 eye height, instant camera drop and no sneak release delay.",
+	"authors": ["BigBro"],
+	"license": "MIT",
+	"environment": "*",
+	"mixins": [
+		"oldmechanics.mixins.json",
+		{ "config": "oldmechanics.client.mixins.json", "environment": "client" }
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~1.21.11",
+		"java": ">=21"
+	}
+}

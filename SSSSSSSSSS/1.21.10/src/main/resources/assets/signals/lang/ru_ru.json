@@ -1,0 +1,16 @@
+{
+	"key.category.signals.signals": "Сигналы",
+	"key.signals.signal_1": "Сигнал 1",
+	"key.signals.signal_2": "Сигнал 2",
+	"key.signals.signal_3": "Сигнал 3",
+	"key.signals.mute_others": "Только сигналы (вкл/выкл остальные звуки)",
+	"signals.mute_on": "Звуки игры выключены — слышны только сигналы",
+	"signals.mute_off": "Звуки игры включены",
+	"signals.no_team": "[Signals] Мода нет на сервере. Добавь тимейтов: /signals add <ник>",
+	"signals.added": "[Signals] %s добавлен в команду",
+	"signals.removed": "[Signals] %s убран из команды",
+	"signals.not_in_team": "[Signals] %s нет в команде",
+	"signals.team": "[Signals] Команда: %s",
+	"signals.team_empty": "[Signals] Команда пуста. Добавь: /signals add <ник>",
+	"signals.command_set": "[Signals] Команда ЛС: /%s"
+}
